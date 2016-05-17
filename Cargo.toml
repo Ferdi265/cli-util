@@ -1,0 +1,7 @@
+[package]
+name = "cli-util"
+version = "0.1.0"
+authors = ["theFerdi265 <theferdi265@gmail.com>"]
+
+[dependencies.argparse]
+version = "0.2.1"

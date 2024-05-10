@@ -2,6 +2,7 @@
 name = "cli-util"
 version = "0.1.0"
 authors = ["theFerdi265 <theferdi265@gmail.com>"]
+edition = "2021"
 
 [dependencies.argparse]
 version = "0.2.1"

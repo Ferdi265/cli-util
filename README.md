@@ -8,14 +8,16 @@ Note: The argparse crate is not required to compile this crate. It is, however,
 needed if you use the argument parsing macro in another crate and for running
 the tests.
 
+## Maintenance Note
+
+This project is unmaintained. I built this in 2016, and didn't touch it since,
+except for making it build cleanly with a modern Rust edition in 2024.
+
 ## Building
 
 This project is inteded to be build with Cargo, the Rust package manager.
 
-This project specifically requires (as of 2016.05.08) a nightly build of rustc
-to compile, as it uses some macro code (`parse_args!` from
-[cli-util](https://github.com/Ferdi265/cli-util) inexplicably doesn't work on
-release rustc) that doesn't work with release rustc.
+This project compiles with stable Rust 1.78.0.
 
 ## Documentation
 
